@@ -9,6 +9,9 @@ target 'DKPracticeProject' do
   pod 'AFNetworking'
   pod 'YYModel'
   pod 'Masonry'
+  pod 'HYBUnicodeReadable', '~> 1.1'
+  pod 'SDWebImage'
+
 
   target 'DKPracticeProjectTests' do
     inherit! :search_paths
