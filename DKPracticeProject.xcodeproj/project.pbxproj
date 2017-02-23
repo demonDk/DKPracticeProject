@@ -18,7 +18,16 @@
 		FF01F5B91E49BCFA00B4512C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF01F5B71E49BCFA00B4512C /* LaunchScreen.storyboard */; };
 		FF01F5C41E49BCFA00B4512C /* DKPracticeProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF01F5C31E49BCFA00B4512C /* DKPracticeProjectTests.m */; };
 		FF01F5CF1E49BCFA00B4512C /* DKPracticeProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF01F5CE1E49BCFA00B4512C /* DKPracticeProjectUITests.m */; };
+		FF0205A11E5D7D4500AF3D50 /* 1.m4v in Resources */ = {isa = PBXBuildFile; fileRef = FF02059E1E5D7D4500AF3D50 /* 1.m4v */; };
+		FF0205A21E5D7D4500AF3D50 /* 2.m4v in Resources */ = {isa = PBXBuildFile; fileRef = FF02059F1E5D7D4500AF3D50 /* 2.m4v */; };
+		FF0205A31E5D7D4500AF3D50 /* 3.m4v in Resources */ = {isa = PBXBuildFile; fileRef = FF0205A01E5D7D4500AF3D50 /* 3.m4v */; };
+		FF0205A91E5D7DB000AF3D50 /* DKNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0205A81E5D7DB000AF3D50 /* DKNavigationController.m */; };
+		FF0205AC1E5D7E1A00AF3D50 /* DKAVPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0205AB1E5D7E1A00AF3D50 /* DKAVPlayerViewController.m */; };
+		FF0205AF1E5D8B3200AF3D50 /* DKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0205AE1E5D8B3200AF3D50 /* DKTabBarController.m */; };
 		FF2AB65C1E4AC9FC000355B5 /* DkGuidePageVc.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2AB65B1E4AC9FC000355B5 /* DkGuidePageVc.m */; };
+		FFA129851E58513C00E7378F /* timg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FFA129821E58513C00E7378F /* timg.jpeg */; };
+		FFA129861E58513C00E7378F /* timg1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FFA129831E58513C00E7378F /* timg1.jpeg */; };
+		FFA129871E58513C00E7378F /* timg2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = FFA129841E58513C00E7378F /* timg2.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,8 +73,22 @@
 		FF01F5CA1E49BCFA00B4512C /* DKPracticeProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKPracticeProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF01F5CE1E49BCFA00B4512C /* DKPracticeProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKPracticeProjectUITests.m; sourceTree = "<group>"; };
 		FF01F5D01E49BCFA00B4512C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF02059E1E5D7D4500AF3D50 /* 1.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.m4v; sourceTree = "<group>"; };
+		FF02059F1E5D7D4500AF3D50 /* 2.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.m4v; sourceTree = "<group>"; };
+		FF0205A01E5D7D4500AF3D50 /* 3.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.m4v; sourceTree = "<group>"; };
+		FF0205A71E5D7DB000AF3D50 /* DKNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKNavigationController.h; sourceTree = "<group>"; };
+		FF0205A81E5D7DB000AF3D50 /* DKNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKNavigationController.m; sourceTree = "<group>"; };
+		FF0205AA1E5D7E1A00AF3D50 /* DKAVPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKAVPlayerViewController.h; sourceTree = "<group>"; };
+		FF0205AB1E5D7E1A00AF3D50 /* DKAVPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKAVPlayerViewController.m; sourceTree = "<group>"; };
+		FF0205AD1E5D8B3200AF3D50 /* DKTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKTabBarController.h; sourceTree = "<group>"; };
+		FF0205AE1E5D8B3200AF3D50 /* DKTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKTabBarController.m; sourceTree = "<group>"; };
 		FF2AB65A1E4AC9FC000355B5 /* DkGuidePageVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DkGuidePageVc.h; sourceTree = "<group>"; };
 		FF2AB65B1E4AC9FC000355B5 /* DkGuidePageVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DkGuidePageVc.m; sourceTree = "<group>"; };
+		FFA1297E1E58440400E7378F /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FFA129811E5845A200E7378F /* DkCommonHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DkCommonHeader.h; sourceTree = "<group>"; };
+		FFA129821E58513C00E7378F /* timg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpeg; sourceTree = "<group>"; };
+		FFA129831E58513C00E7378F /* timg1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg1.jpeg; sourceTree = "<group>"; };
+		FFA129841E58513C00E7378F /* timg2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg2.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +167,7 @@
 		FF01F5A81E49BCFA00B4512C /* DKPracticeProject */ = {
 			isa = PBXGroup;
 			children = (
+				FFA1297F1E58459400E7378F /* DkCommon */,
 				FF2AB6561E4AC8CB000355B5 /* DkImageSource */,
 				FF2AB6571E4AC8CB000355B5 /* DkModel */,
 				FF2AB6581E4AC8CB000355B5 /* DkViewController */,
@@ -164,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				FF01F5AA1E49BCFA00B4512C /* main.m */,
+				FFA1297E1E58440400E7378F /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -189,6 +214,12 @@
 		FF2AB6561E4AC8CB000355B5 /* DkImageSource */ = {
 			isa = PBXGroup;
 			children = (
+				FF02059E1E5D7D4500AF3D50 /* 1.m4v */,
+				FF02059F1E5D7D4500AF3D50 /* 2.m4v */,
+				FF0205A01E5D7D4500AF3D50 /* 3.m4v */,
+				FFA129821E58513C00E7378F /* timg.jpeg */,
+				FFA129831E58513C00E7378F /* timg1.jpeg */,
+				FFA129841E58513C00E7378F /* timg2.jpeg */,
 			);
 			path = DkImageSource;
 			sourceTree = "<group>";
@@ -204,6 +235,10 @@
 			isa = PBXGroup;
 			children = (
 				FF2AB6591E4AC97F000355B5 /* 引导页 */,
+				FF0205A71E5D7DB000AF3D50 /* DKNavigationController.h */,
+				FF0205A81E5D7DB000AF3D50 /* DKNavigationController.m */,
+				FF0205AD1E5D8B3200AF3D50 /* DKTabBarController.h */,
+				FF0205AE1E5D8B3200AF3D50 /* DKTabBarController.m */,
 			);
 			path = DkViewController;
 			sourceTree = "<group>";
@@ -213,8 +248,26 @@
 			children = (
 				FF2AB65A1E4AC9FC000355B5 /* DkGuidePageVc.h */,
 				FF2AB65B1E4AC9FC000355B5 /* DkGuidePageVc.m */,
+				FF0205AA1E5D7E1A00AF3D50 /* DKAVPlayerViewController.h */,
+				FF0205AB1E5D7E1A00AF3D50 /* DKAVPlayerViewController.m */,
 			);
 			path = "引导页";
+			sourceTree = "<group>";
+		};
+		FFA1297F1E58459400E7378F /* DkCommon */ = {
+			isa = PBXGroup;
+			children = (
+				FFA129801E58459400E7378F /* DkDefine */,
+			);
+			path = DkCommon;
+			sourceTree = "<group>";
+		};
+		FFA129801E58459400E7378F /* DkDefine */ = {
+			isa = PBXGroup;
+			children = (
+				FFA129811E5845A200E7378F /* DkCommonHeader.h */,
+			);
+			path = DkDefine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,9 +387,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF0205A31E5D7D4500AF3D50 /* 3.m4v in Resources */,
 				FF01F5B91E49BCFA00B4512C /* LaunchScreen.storyboard in Resources */,
+				FFA129871E58513C00E7378F /* timg2.jpeg in Resources */,
 				FF01F5B61E49BCFA00B4512C /* Assets.xcassets in Resources */,
+				FFA129851E58513C00E7378F /* timg.jpeg in Resources */,
+				FF0205A21E5D7D4500AF3D50 /* 2.m4v in Resources */,
+				FFA129861E58513C00E7378F /* timg1.jpeg in Resources */,
 				FF01F5B41E49BCFA00B4512C /* Main.storyboard in Resources */,
+				FF0205A11E5D7D4500AF3D50 /* 1.m4v in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,8 +543,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF0205AF1E5D8B3200AF3D50 /* DKTabBarController.m in Sources */,
+				FF0205A91E5D7DB000AF3D50 /* DKNavigationController.m in Sources */,
 				FF01F5B11E49BCFA00B4512C /* ViewController.m in Sources */,
 				FF2AB65C1E4AC9FC000355B5 /* DkGuidePageVc.m in Sources */,
+				FF0205AC1E5D7E1A00AF3D50 /* DKAVPlayerViewController.m in Sources */,
 				FF01F5AE1E49BCFA00B4512C /* AppDelegate.m in Sources */,
 				FF01F5AB1E49BCFA00B4512C /* main.m in Sources */,
 			);
@@ -636,11 +698,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y4EZ9DYXN7;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DKPracticeProject/PrefixHeader.pch";
 				INFOPLIST_FILE = DKPracticeProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dk.DKPracticeProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Debug;
 		};
@@ -650,11 +714,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y4EZ9DYXN7;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/DKPracticeProject/PrefixHeader.pch";
 				INFOPLIST_FILE = DKPracticeProject/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dk.DKPracticeProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
 			};
 			name = Release;
 		};

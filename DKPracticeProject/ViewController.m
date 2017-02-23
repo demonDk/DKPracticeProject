@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DkGuidePageVc.h"
 
 @interface ViewController ()
 
@@ -17,9 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    UIView *title = [[UIView alloc] initWithFrame:CGRectMake(100, 200, 30, 30)];
-    title.backgroundColor = [UIColor purpleColor];
-    [self.view addSubview:title];
+    self.view.backgroundColor = [UIColor blueColor];
+    DkGuidePageVc *guidePage = [[DkGuidePageVc alloc] init];
+    [self.view addSubview:guidePage.view];
 }
 
 

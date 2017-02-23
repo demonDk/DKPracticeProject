@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "DkGuidePageVc.h"
+#import "DKAVPlayerViewController.h"
 
 @interface AppDelegate ()
 
@@ -14,9 +16,19 @@
 
 @implementation AppDelegate
 
+@synthesize window = _window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+//    DkGuidePageVc *guidePage = [[DkGuidePageVc alloc] init];
+
+    DKAVPlayerViewController *avplayerVC = [[DKAVPlayerViewController alloc] init];
+    self.window = [[UIWindow alloc] initWithFrame:ScreenFrame];
+    self.window.backgroundColor = [UIColor blueColor];
+    self.window.rootViewController = avplayerVC;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
